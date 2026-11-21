@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #111d3b;
+    font-family: Arial, sans-serif;
+}
+
+.ss1 {
+    width: 90%;
+    max-width: 1250px;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 40px 5%;
+    box-sizing: border-box;
+    background: #1e1e1e;
+    color: white;
+    overflow: hidden;
+}
+
+.ss2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ss3 {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+.ss4 {
+    display: flex;
+    gap: 30px;
+}
+
+.ss4 a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.ss5 {
+    background: #d4f51b;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ss6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.ss7 {
+    width: 50%;
+}
+
+.ss7 h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.ss7 span {
+    color: #d4f51b;
+}
+
+.ss7 p {
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.ss8 {
+    background: #d4f51b;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ss9 {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.ss10 {
+    display: flex;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.ss10 div {
+    border-right: 1px solid #d4f51b;
+    padding-right: 25px;
+}
+
+.ss10 div:last-child {
+    border: none;
+}
+
+.ss10 h2 {
+    color: #d4f51b;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.ss10 p {
+    color: white;
+}
+
+.ss11 {
+    width: 45%;
+    position: relative;
+}
+
+.ss11 img {
+    width: 90%;
+    height: 490px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.ss12 {
+    position: absolute;
+    right: -35px;
+    bottom: -45px;
+    width: 210px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #111d3b;
+    border-radius: 12px;
+}
+
+.ss30 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ss30 p {
+    color: #d4f51b;
+    font-size: 11px;
+}
+
+.ss30 h3 {
+    font-size: 13px;
+}
+
+.ss12 button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #d4f51b;
+    color: #d4f51b;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.ss13 {
+    margin-top: 150px;
+}
+
+.ss14 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ss14 h1 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.ss14 button {
+    background: #d4f51b;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ss15 {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.ss16 {
+    width: 33.33%;
+    padding: 12px;
+    box-sizing: border-box;
+    background: #111d3b;
+    border: 1px solid #293d82;
+    border-radius: 15px;
+}
+
+.ss16 img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ss16 h3 {
+    font-size: 16px;
+}
+
+.ss16 p {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.ss16 button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #d4f51b;
+    color: #d4f51b;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.ss17 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.ss18 {
+    width: 40%;
+}
+
+.ss18 h1 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+}
+
+.ss18 p {
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.ss18 button {
+    background: #d4f51b;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ss18 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.ss19 {
+    width: 55%;
+    height: 500px;
+    position: relative;
+}
+
+.ss20 {
+    width: 65%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.ss21 {
+    width: 65%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.ss22 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.ss23 {
+    width: 50%;
+    height: 350px;
+    position: relative;
+}
+
+.ss24 {
+    width: 70%;
+    height: 270px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-8deg);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.ss25 {
+    width: 60%;
+    height: 270px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.ss26 {
+    width: 45%;
+}
+
+.ss26 h1 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.ss26 p {
+    color: #ccc;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.ss27 {
+    display: flex;
+    background: #111d3b;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.ss27 input {
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+}
+
+.ss27 button {
+    width: 30%;
+    background: #d4f51b;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.ss28 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 150px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #555;
+}
+
+.ss28 div {
+    flex: 1;
+}
+
+.ss28 img {
+    width: 100px;
+}
+
+.ss28 h3 {
+    font-size: 15px;
+}
+
+.ss28 p {
+    color: #bbb;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.ss29 {
+    max-width: 200px;
+}
+
+.ss31 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.ss31 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}

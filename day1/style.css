@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.ss1 {
+    width: 900px;
+    height: 900px;
+    background-color: #303030;
+    position: relative;
+}
+.ss2, .ss3, .ss4, .ss5,
+.ss6, .ss7, .ss8, .ss9 {
+    width: 25%;
+    height: 25%;
+    background-color: #00c99b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+.ss2 {
+    top: 0;
+    left: 37.5%;
+}
+.ss3 {
+    top: 10%;
+    right: 10%;
+}
+.ss4 {
+    top: 37.5%;
+    right: 0;
+}
+.ss5 {
+    bottom: 10%;
+    right: 10%;
+}
+.ss6 {
+    bottom: 0;
+    left: 37.5%;
+}
+.ss7 {
+    bottom: 10%;
+    left: 10%;
+}
+.ss8 {
+    top: 37.5%;
+    left: 0;
+}
+.ss9 {
+    top: 10%;
+    left: 10%;
+}
+.box {
+    width: 30%;
+    height: 30%;
+    background-color: #009c7d;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
